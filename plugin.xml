@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="cordova-plugin-ios-screenguard" version="1.0.0"
+        xmlns="http://apache.org/cordova/ns/plugins/1.0">
+  <name>iOS Screen Guard</name>
+  <description>Blocks screen recording and mirroring by overlaying a black screen</description>
+  <license>MIT</license>
+  <platform name="ios">
+    <source-file src="src/ios/CDVScreenGuard.m" />
+    <config-file parent="/*" target="config.xml">
+      <feature name="ScreenGuard">
+        <param name="ios-package" value="CDVScreenGuard" />
+      </feature>
+    </config-file>
+  </platform>
+</plugin>
