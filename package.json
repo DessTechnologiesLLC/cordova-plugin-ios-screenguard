@@ -1,0 +1,26 @@
+{
+  "name": "cordova-plugin-ios-screenguard",
+  "version": "1.0.0",
+  "description": "Cordova plugin to block screen recording and mirroring on iOS.",
+  "cordova": {
+    "id": "cordova-plugin-ios-screenguard",
+    "platforms": ["ios"]
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "ios",
+    "screen",
+    "recording",
+    "screenshot",
+    "mirroring"
+  ],
+  "author": "Aftab Dalla",
+  "license": "MIT",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=10.0.0"
+    }
+  ]
+}
